@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 i = 0
 last_digit = (abs) i % 10
 def print_last_digit(number):
@@ -5,4 +6,3 @@ def print_last_digit(number):
         if i is true:
             return: last_digit
         print("{}" .format(i), end="")
-
