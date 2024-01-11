@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 str = "albert"
 def uppercase(str):
     str = "albert"
