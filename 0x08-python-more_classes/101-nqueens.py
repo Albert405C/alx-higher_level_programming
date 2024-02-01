@@ -77,12 +77,13 @@ def xout(board, row, col):
         board[r][c] = "x"
         c += 1
     # X out all spots diagonally up to the left
-    c = col - 1
-    for r in range(row - 1, -1, -1):
-        if c < 0:
-            break
-        board[r][c]
-        c -= 1
+   c = col - 1
+   for r in range(row - 1, -1, -1):
+       if c < 0:
+          break
+    board[r][c] = "x"  # Corrected assignment
+    c -= 1
+
     # X out all spots diagonally up to the right
     c = col + 1
     for r in range(row - 1, -1, -1):
